@@ -1,0 +1,138 @@
+/* General */
+
+*{
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+html{
+
+    font-size: 62.5%;
+}
+
+body{
+
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(2,255,253,1) 22%, rgba(0,168,255,1) 64%, rgba(0,18,255,1) 100%);
+}
+
+/* flex */
+
+main{
+    display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+
+.game{
+    width: calc(100% / 3);
+    height: calc(100vh - 15vh);
+    background-color: yellow;
+    
+}
+
+
+.player-one{
+    width: calc(100% / 3);
+    height: calc(100vh - 15vh);
+    background-color: blue;
+    
+}
+
+.player-two{
+    
+    width: calc(100% / 3);
+    height: calc(100vh - 15vh);
+    background-color: red;
+
+}
+
+
+
+/* Title */
+
+.title{
+
+    width: 100%;
+    height: 15vh;
+    line-height: 1;
+    padding-top: 25px;
+}
+
+.title h1{
+
+    text-align: center;
+    font-size: 9em;
+    color: rgb(255, 38, 0);
+}
+
+/* Player One  */
+
+.player-one{
+
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.cake{
+    
+    width: 150px;
+    height: 150px;
+    background-color: rgb(100, 57, 40);
+    border-radius: 50%;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+}
+
+.cake div{
+    
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cake div div{
+    
+    width: 80px;
+    height: 80px;
+    background-color: rgb(216, 16, 149);
+    border-radius: 50%;
+
+}
+
+
+.name-player{
+    width: 100%;
+    height: 50px;
+}
+
+
+/* Player two  */
+.player-two{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+
+}
+
+.snowflake{
+
+    background-color: greenyellow;
+    width: 120px;
+    height: 120px;
+
+}
